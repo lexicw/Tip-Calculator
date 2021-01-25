@@ -1,0 +1,50 @@
+#wrapper {	width:300px;
+			border:4px dotted dodgerblue;
+			padding:20px;
+			margin:2.5em auto 20px auto;
+			background-color: white;
+		} 
+		
+body		{	font: 1em BrawlerRegular, Times, serif;
+				background: linear-gradient(lightblue, white);
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				line-height: 2.5;
+				}
+				
+input[type="text"] {
+			width: 70px;
+}
+#errorMsg {
+		font: 1em Arial; text-align: center;
+		color: red; 
+		}
+		
+h1,h2	{	margin: 0px; }
+
+h1		{ 	font: 2em Arial; text-align: center; }
+h2		{ 	font: 0.9em Arial, Helvetica, sans-serif; }
+label	{ 	font-weight: bold;
+			font: 1.2em Arial; }
+
+footer	{	font-size: 0.7em;}
+
+
+button {
+  font: 1.3em Arial;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid dodgerblue;
+  transition-duration: 0.4s;
+  padding: 5px 12px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: dodgerblue;
+  color: white;
+}

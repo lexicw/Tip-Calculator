@@ -1,0 +1,46 @@
+<!-- Author:      Alexandra Wheeler    -->
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Tip Calculator</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+	<script src="TipCalculator.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Tip Calculator</h1>
+</header>
+<main>
+<p id="errorMsg"></p>
+<form>
+  <label>Cost of meal: $</label>
+  <input type="text" id="cost"><br>
+  <label>Tip Percentage:</label>
+  <select id="percentage">
+  <option value=".10">10%</option>
+  <option value=".15">15%</option>
+  <option value=".20">20%</option>
+  </select>
+  <br>
+  <div class="center">
+  <button onclick="tipCalculate()">Calculate</button><br><br>
+  </div>
+  <label>Tip amount: $</label>
+  <input type="text" id="tipAmount"><br>
+  <label>Total Cost: $</label>
+  <input type="text" id="totalCost"><br>
+</form>
+</main>
+<footer>
+<p>&copy; <span id="year"></span>. Alexandra Wheeler.</p>
+</footer>
+<script>
+    var currentYear = new Date().getFullYear(); 
+	var dateContainer = document.getElementById("year");
+	dateContainer.innerHTML = currentYear;
+</script>
+</div>
+</body>
+</html>
