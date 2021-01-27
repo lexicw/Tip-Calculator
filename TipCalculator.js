@@ -1,4 +1,6 @@
 	/* Author:       Alexandra Wheeler             */
+
+// Function that executes upon clicking "Calculate" button
 function tipCalculate() {
   event.preventDefault();
   let cost = document.getElementById("cost").value;
