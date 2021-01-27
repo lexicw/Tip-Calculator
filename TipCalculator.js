@@ -14,8 +14,8 @@ function tipCalculate() {
 	let tipCalc = cost * p; 
 	let total = parseFloat(cost) + parseFloat(tipCalc);
 	console.log("total = " + total);
-	document.getElementById("tipAmount").value = tipCalc;
-	document.getElementById("totalCost").value = total;
+	document.getElementById("tipAmount").value = tipCalc.toFixed(2);
+	document.getElementById("totalCost").value = total.toFixed(2);
 	}
   }
   catch(err) {
