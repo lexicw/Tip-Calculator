@@ -12,7 +12,7 @@ body		{	font: 1em BrawlerRegular, Times, serif;
 				line-height: 2.5;
 				}
 				
-input[type="text"] {
+input[type="number"] {
 			width: 70px;
 }
 #errorMsg {
