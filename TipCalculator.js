@@ -9,7 +9,7 @@ function tipCalculate() {
   message = document.getElementById("errorMsg");
   message.innerHTML = "";
   
-  try {
+  try { 
     if(cost == "") throw "empty";
     if(isNaN(cost)) throw "not a number";
 	else {
